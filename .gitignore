@@ -1,0 +1,37 @@
+# ------------------ checkpoints / pretrained models ------------------
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+*.onnx
+
+# ------------------ datasets ------------------
+data/
+datasets/
+
+# ------------------ training artifacts ------------------
+tools/log/
+tools/output/
+runs/
+output/
+log/
+events.out.tfevents.*
+*.tfevent
+
+# ------------------ IDE / editor ------------------
+.idea/
+.vscode/
+*.iml
+
+# ------------------ Python ------------------
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.ipynb_checkpoints/
+
+# ------------------ OS / misc ------------------
+.DS_Store
+Thumbs.db
+*.log
